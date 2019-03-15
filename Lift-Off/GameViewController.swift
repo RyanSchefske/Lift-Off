@@ -102,7 +102,7 @@ class GameViewController: UIViewController, GADBannerViewDelegate, GADInterstiti
     /// Tells the delegate an ad request loaded an ad.
     func adViewDidReceiveAd(_ bannerView: GADBannerView) {
         print("adViewDidReceiveAd")
-        addBannerViewToView(bannerView)
+        //addBannerViewToView(bannerView)
     }
     
     /// Tells the delegate an ad request failed.

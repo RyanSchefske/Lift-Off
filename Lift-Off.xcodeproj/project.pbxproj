@@ -16,6 +16,13 @@
 		3D8814AD21C9F94E002B1EDF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D8814AB21C9F94E002B1EDF /* Main.storyboard */; };
 		3D8814AF21C9F94F002B1EDF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D8814AE21C9F94F002B1EDF /* Assets.xcassets */; };
 		3D8814B221C9F94F002B1EDF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D8814B021C9F94F002B1EDF /* LaunchScreen.storyboard */; };
+		3DAD7560223205ED00B2437A /* SettingsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DAD755F223205ED00B2437A /* SettingsScreen.swift */; };
+		3DAD75622232061100B2437A /* SettingsScreen.sks in Resources */ = {isa = PBXBuildFile; fileRef = 3DAD75612232061100B2437A /* SettingsScreen.sks */; };
+		3DAD756622322C2000B2437A /* GameOverScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DAD756522322C2000B2437A /* GameOverScreen.swift */; };
+		3DAD756A22322C4000B2437A /* GameOverScreen.sks in Resources */ = {isa = PBXBuildFile; fileRef = 3DAD756922322C4000B2437A /* GameOverScreen.sks */; };
+		3DAD756C223233E200B2437A /* PlayGameScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DAD756B223233E200B2437A /* PlayGameScreen.swift */; };
+		3DAD756E223233F300B2437A /* PlayGameScreen.sks in Resources */ = {isa = PBXBuildFile; fileRef = 3DAD756D223233F300B2437A /* PlayGameScreen.sks */; };
+		3DD095912223A52600002594 /* RocketParticle.sks in Resources */ = {isa = PBXBuildFile; fileRef = 3DD095902223A52600002594 /* RocketParticle.sks */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +36,13 @@
 		3D8814AE21C9F94F002B1EDF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3D8814B121C9F94F002B1EDF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3D8814B321C9F94F002B1EDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DAD755F223205ED00B2437A /* SettingsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsScreen.swift; sourceTree = "<group>"; };
+		3DAD75612232061100B2437A /* SettingsScreen.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = SettingsScreen.sks; sourceTree = "<group>"; };
+		3DAD756522322C2000B2437A /* GameOverScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOverScreen.swift; sourceTree = "<group>"; };
+		3DAD756922322C4000B2437A /* GameOverScreen.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameOverScreen.sks; sourceTree = "<group>"; };
+		3DAD756B223233E200B2437A /* PlayGameScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayGameScreen.swift; sourceTree = "<group>"; };
+		3DAD756D223233F300B2437A /* PlayGameScreen.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = PlayGameScreen.sks; sourceTree = "<group>"; };
+		3DD095902223A52600002594 /* RocketParticle.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = RocketParticle.sks; sourceTree = "<group>"; };
 		6535E95F90F7A2CACD988E66 /* Pods-Lift-Off.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lift-Off.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Lift-Off/Pods-Lift-Off.debug.xcconfig"; sourceTree = "<group>"; };
 		CFFD73541145C4DBF6D502A1 /* Pods-Lift-Off.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lift-Off.release.xcconfig"; path = "Pods/Target Support Files/Pods-Lift-Off/Pods-Lift-Off.release.xcconfig"; sourceTree = "<group>"; };
 		EC9F309AC3602C76B5000860 /* Pods_Lift_Off.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Lift_Off.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -77,14 +91,21 @@
 			isa = PBXGroup;
 			children = (
 				3D8814A121C9F94E002B1EDF /* AppDelegate.swift */,
+				3D8814A921C9F94E002B1EDF /* GameViewController.swift */,
+				3D8814A721C9F94E002B1EDF /* GameScene.swift */,
+				3DAD756B223233E200B2437A /* PlayGameScreen.swift */,
+				3DAD756522322C2000B2437A /* GameOverScreen.swift */,
+				3DAD755F223205ED00B2437A /* SettingsScreen.swift */,
 				3D8814A321C9F94E002B1EDF /* GameScene.sks */,
 				3D8814A521C9F94E002B1EDF /* Actions.sks */,
-				3D8814A721C9F94E002B1EDF /* GameScene.swift */,
-				3D8814A921C9F94E002B1EDF /* GameViewController.swift */,
+				3DAD756D223233F300B2437A /* PlayGameScreen.sks */,
+				3DAD756922322C4000B2437A /* GameOverScreen.sks */,
+				3DAD75612232061100B2437A /* SettingsScreen.sks */,
 				3D8814AB21C9F94E002B1EDF /* Main.storyboard */,
 				3D8814AE21C9F94F002B1EDF /* Assets.xcassets */,
 				3D8814B021C9F94F002B1EDF /* LaunchScreen.storyboard */,
 				3D8814B321C9F94F002B1EDF /* Info.plist */,
+				3DD095902223A52600002594 /* RocketParticle.sks */,
 			);
 			path = "Lift-Off";
 			sourceTree = "<group>";
@@ -157,10 +178,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				3D8814AD21C9F94E002B1EDF /* Main.storyboard in Resources */,
+				3DAD756E223233F300B2437A /* PlayGameScreen.sks in Resources */,
 				3D8814A421C9F94E002B1EDF /* GameScene.sks in Resources */,
 				3D8814AF21C9F94F002B1EDF /* Assets.xcassets in Resources */,
+				3DD095912223A52600002594 /* RocketParticle.sks in Resources */,
+				3DAD75622232061100B2437A /* SettingsScreen.sks in Resources */,
 				3D8814B221C9F94F002B1EDF /* LaunchScreen.storyboard in Resources */,
 				3D8814A621C9F94E002B1EDF /* Actions.sks in Resources */,
+				3DAD756A22322C4000B2437A /* GameOverScreen.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -192,9 +217,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3DAD7560223205ED00B2437A /* SettingsScreen.swift in Sources */,
 				3D8814A821C9F94E002B1EDF /* GameScene.swift in Sources */,
+				3DAD756622322C2000B2437A /* GameOverScreen.swift in Sources */,
 				3D8814AA21C9F94E002B1EDF /* GameViewController.swift in Sources */,
 				3D8814A221C9F94E002B1EDF /* AppDelegate.swift in Sources */,
+				3DAD756C223233E200B2437A /* PlayGameScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
